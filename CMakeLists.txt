@@ -52,6 +52,7 @@ c4_add_library(ryml
         c4/yml/writer.hpp
         c4/yml/yml.hpp
         ryml.natvis
+    LIBRARY_TYPE SHARED
     SOURCE_ROOT ${RYML_SRC_DIR}
     INC_DIRS
         $<BUILD_INTERFACE:${RYML_SRC_DIR}>
