@@ -99,3 +99,6 @@ c4_add_dev_targets()
 add_custom_target(ryml-uninstall
     "${CMAKE_COMMAND}" -P "${PROJECT_SOURCE_DIR}/cmake/uninstall.cmake"
 )
+
+find_package(ament_cmake REQUIRED)
+ament_package()
